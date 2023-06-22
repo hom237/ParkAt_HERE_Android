@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hackers"
+        tools:targetApi="31">
+        <activity
+            android:name=".LLLL"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".firstopenAL1"
+            android:exported="false" />
+        <activity
+            android:name=".test_A3"
+            android:exported="false" />
+        <activity
+            android:name=".firstopenA3"
+            android:exported="false" />
+        <activity
+            android:name=".firstopenA2"
+            android:exported="false" />
+        <activity
+            android:name=".firstopenA1"
+            android:exported="false" />
+        <activity
+            android:name=".firstopenMainLunching"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".firstopenMain"
+            android:exported="true" />
+        <activity
+            android:name=".firstopen3"
+            android:exported="false" />
+        <activity
+            android:name=".firstopen2"
+            android:exported="false" />
+        <activity
+            android:name=".firstopen1"
+            android:exported="false" />
+        <activity
+            android:name=".find"
+            android:exported="false" />
+        <activity
+            android:name=".path_result"
+            android:exported="false" />
+        <activity
+            android:name=".result"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+    </application>
+
+</manifest>
